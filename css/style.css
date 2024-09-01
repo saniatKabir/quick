@@ -1,4 +1,4 @@
-/*cpmmon start*/
+/*common start*/
 Body{
 	margin: 0;
 	padding: 0;
@@ -12,7 +12,6 @@ header{
 }
 .container{
 	width: 90%;
-	border: 1px solid red;
 	margin: 0 auto;
 	overflow: hidden;
 
@@ -149,23 +148,29 @@ header{
 .frature{}
 .f_content{
 	overflow: hidden;
-	box-sizing: border-box;
 }
 .f_single{
-	width: 30%;
-	border: 1px solid;
-	font-family: sans-serif;
-	color:  #0F2656 ;
-	float: left;
-	margin-right: 25px;
+	width: 28.6%;
+    font-family: sans-serif;
+    color: #0F2656;
+    padding: 30px 1.5% 45px;
+    float: left;
+    margin-right: 2.6%;
+}
 
-.f_single last-child{
+.f_single:last-child{
 	margin-right: 0;
 }
-}
+
 .pink{
 	background-color: #FDEBED;
+}
+.green{
+	background-color: #EBF9F4;
 } 
+.yellow{
+	background-color: #FFF7E8;
+}
 .f_img{}
 .f_img img{
 	width: 100%;
@@ -174,7 +179,6 @@ header{
 	font-size: 22px;
 	font-weight: 700;
 	margin: 20px 0;
-	padding: 30px 25px 45px;
 }
 .f_single p{
 	font-size: 16px;
@@ -182,3 +186,26 @@ header{
 	margin: 0;
 }
 /*feature ends*/
+/*footer starts*/
+.footer{
+	height: 50px;
+	background-color: #008AFF;
+	margin-top: 50px;
+}
+.footer p{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+	padding-top: 17px;
+}
+span{
+	/*font-weight: 700;*/
+}
+.footer a{
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+}
+/*footer ends*/
